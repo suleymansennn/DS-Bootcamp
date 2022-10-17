@@ -45,7 +45,7 @@ def show_result(new_user):
 
 
 
-st.title("Customer Level Based Segmentation")
+st.title("Level Based Customer Segmentation")
 img = "https://raw.githubusercontent.com/suleymansennn/DS-Bootcamp/main/week3/customer.jpeg"
 st.image(img)
 
