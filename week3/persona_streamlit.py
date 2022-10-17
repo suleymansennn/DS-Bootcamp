@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 
 def customer_level_based():
-    df = pd.read_csv("persona.csv")
+    df = pd.read_csv("week3/persona.csv")
     df.columns = [col.lower() for col in df.columns]
     agg_df = df.groupby(["country", "source", "sex", "age"]).agg({"price": "mean"}).sort_values("price",
                                                                                                 ascending=False).reset_index()
