@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from termcolor import colored
 import matplotlib
 
 matplotlib.use("Qt5Agg")
