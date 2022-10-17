@@ -46,7 +46,7 @@ def show_result(new_user):
 
 
 st.title("Customer Level Based Segmentation")
-img = Image.open("https://github.com/suleymansennn/DS-Bootcamp/blob/main/week3/customer.jpeg")
+img = Image.open("https://raw.githubusercontent.com/suleymansennn/DS-Bootcamp/main/week3/customer.jpeg")
 st.image(img)
 
 age = st.number_input("Enter your age", step=1)
