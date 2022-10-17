@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-from PIL import Image
 
 def customer_level_based():
     df = pd.read_csv("week3/persona.csv")
